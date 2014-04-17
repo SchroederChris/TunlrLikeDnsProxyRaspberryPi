@@ -1,6 +1,6 @@
-Setting up a DNS Proxy for watching Netflix outside the US on the Raspberry Pi
-==============================================================================
-t3slider describes how to set up a tunlr clone on a generic linux machine [here](https://github.com/t3slider/Tunlr-Clone-Non-SNI). 
+Setting up a tunlr-like DNS Proxy on the Raspberry Pi
+=====================================================
+t3slider shows how to set up a tunlr clone [here](https://github.com/t3slider/Tunlr-Clone-Non-SNI). 
 
 This tutorial describes the specifics when using a Raspberry Pi for the local proxy server.
 
