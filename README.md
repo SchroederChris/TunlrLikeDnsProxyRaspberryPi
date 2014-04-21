@@ -124,5 +124,11 @@ sudo systemctl enable haproxy
 sudo systemctl start haproxy
 ```
 
+Make haproxy service depend on rc.local:
+```
+sudo nano /lib/systemd/system/haproxy.service
+add 'rc-local.servcice' in the After-section
+```
+
 ###Remote proxy and DNSmasq
 See the [original tutorial](https://github.com/t3slider/Tunlr-Clone-Non-SNI)
